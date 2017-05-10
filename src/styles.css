@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{
+  background-color: #EAEAEA;
+  font-family:'raleway', sans-serif;
+  font-weight: lighter;
+  letter-spacing: .5px;
+}
+
+.albumImg{
+  max-width: 400px;
+  max-height: 400px;
+}

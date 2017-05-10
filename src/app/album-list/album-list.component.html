@@ -1,3 +1,16 @@
-<div *ngFor="let album of albums | async">
-  <h1>{{album.albumName}} is the name.</h1>
+
+
+<div *ngFor="let album of albums | async" class="f-row responsive box-dark">
+  <div class="f-col-4 bg-light">
+    <div>
+      <h1> {{album.albumName}}</h1>
+      <h4>Artist: {{album.artistName}}</h4>
+      <h4>${{album.currentAmount}} recieved out of ${{album.goal}}</h4>
+    </div>
+  </div>
+  <div class="f-col-4 bg-light text-center">
+    <div>
+      <img src="{{album.url}}" alt="album art" class="albumImg" />
+    </div>
+  </div>
 </div>
