@@ -1,0 +1,16 @@
+<div class="f-row responsive box-dark border">
+  <div class="f-col-4 bg-light box-light">
+    <div>
+      <h4>Album Description: {{(albumToDisplay | async)?.description}}
+      </h4>
+      <h4>Genre: {{(albumToDisplay | async)?.genre}}</h4>
+      <h4>Manager: {{(albumToDisplay | async)?.manager}}</h4>
+      <h4>Reward: {{(albumToDisplay | async)?.reward}}</h4>
+      <h4>${{(albumToDisplay | async)?.currentAmount}} / ${{(albumToDisplay | async)?.goal}}</h4>
+    </div>
+    <input #amount type="number" class="input-dark support" placeholder="Support" value="10" min="1">
+    <input #currentAmount value="{{(albumToDisplay | async)?.currentAmount}}" type="hidden">
+    <button (click)="clickSupport(amount.value, currentAmount.value)" class="btn-ghost-dark">Support</button>
+  </div>
+
+</div>

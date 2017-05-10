@@ -21,7 +21,9 @@ export class AlbumListComponent implements OnInit {
 
   ngOnInit() {
     this.albums = this.albumService.getAlbums();
-    console.log(this.albums[0]);
   }
 
+  clickDetails(clickedAlbum) {
+    this.router.navigate(['albums', clickedAlbum.$key]);
+  }
 }

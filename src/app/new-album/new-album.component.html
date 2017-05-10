@@ -1,0 +1,18 @@
+<label>Album Name</label>
+<input type="text" #albumName>
+<label>Artist Name</label>
+<input type="text" #artistName>
+<label>Description</label>
+<input type="text" #description>
+<label>Genre</label>
+<input type="text" #genre>
+<label>Goal</label>
+<input type="number" #goal>
+<label>Manager</label>
+<input type="text" #manager>
+<label>Reward</label>
+<input type="text" #reward>
+<label>Image Url</label>
+<input type="text" #url>
+
+<button class="btn-ghost-dark" (click)='submit(albumName.value, artistName.value, description.value, genre.value, goal.value, manager.value, reward.value, url.value)'>Submit</button>
