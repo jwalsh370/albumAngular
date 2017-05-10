@@ -1,0 +1,17 @@
+{
+  "name": "album",
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.",
+  "main": "karma.conf.js",
+  "authors": [
+    "Ryan and Jahan"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jwalsh370/albumAngular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
