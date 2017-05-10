@@ -1,0 +1,47 @@
+{ "albums": [{
+  "albumName":"In the Name of Rebellion",
+  "artistName":"Sunderland",
+  "manager":"Dirk Tall",
+  "description":"We will not be silenced!",
+  "genre":"Hardcore",
+  "reward":"Signed CD",
+  "currentAmount":10,
+  "goal":4000,
+  "url":"http://i1043.photobucket.com/albums/b436/w14media/sunderland%20logo_zpsiz2qcpuo.jpg"
+  },
+  {
+  "albumName":"The Youngest of Us",
+  "artistName":"Fort Teran",
+  "manager":"Java the Butte",
+  "description":"Out of the sandbox into your heart.",
+  "genre":"pop",
+  "reward":"signed headshots",
+  "currentAmount":200,
+  "goal":10000,
+  "url":"http://www.billboard.com/files/media/one-direction-up-all-night-album-artwork-billboard-1548.jpg"
+  },
+  {
+  "albumName":"For Financial Reasons",
+  "artistName":"Breezeblocks",
+  "manager":"Morman Freegan",
+  "description":"Music for bankers",
+  "genre":"chill wave",
+  "reward":"calendar",
+  "currentAmount":2000,
+  "goal":6000,
+  "url":"https://a1-images.myspacecdn.com/images01/29/3f70bc79df94ec458f6d90194c18fce9/600x600.jpg"
+  },
+  {
+  "albumName":"I Get My Own Way",
+  "artistName":"Angelica Church",
+  "manager":"Angelica Church",
+  "description":"Respect my authority.",
+  "genre":"Art Pop",
+  "reward":"Hand-drawn postcard",
+  "currentAmount":0,
+  "goal":600,
+  "url":"http://images.fineartamerica.com/images/artworkimages/medium/1/angelica-schuyler-church-granger.jpg"
+  }]
+
+
+}
