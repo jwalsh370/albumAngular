@@ -17,6 +17,8 @@ import { Router } from '@angular/router';
 export class AlbumListComponent implements OnInit {
   albums: FirebaseListObservable<any[]>;
 
+  filterByGenre: String = "allGenres";
+
   constructor(private router: Router, private albumService: AlbumService) { }
 
   ngOnInit() {
@@ -25,5 +27,10 @@ export class AlbumListComponent implements OnInit {
 
   clickDetails(clickedAlbum) {
     this.router.navigate(['albums', clickedAlbum.$key]);
+  }
+
+  onChange(selectGenre) {
+    this.filterByGenre = selectGenre;
+
   }
 }

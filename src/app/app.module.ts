@@ -10,6 +10,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AlbumDetailComponent } from './album-detail/album-detail.component';
 import { NewAlbumComponent } from './new-album/new-album.component';
+import { GenrePipe } from './genre.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -23,7 +24,8 @@ export const firebaseConfig = {
     AppComponent,
     AlbumListComponent,
     AlbumDetailComponent,
-    NewAlbumComponent
+    NewAlbumComponent,
+    GenrePipe
   ],
   imports: [
     BrowserModule,
