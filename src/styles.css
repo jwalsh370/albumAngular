@@ -22,3 +22,14 @@ body{
 .card {
   margin: 30px;
 }
+
+.menu-items li:focus {
+  outline: 0;
+}
+
+.menu-items li {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,5 +1,6 @@
-
-
+<p *ngIf="admin">
+  You are in Admin Mode.
+</p>
 
 <select (change)="onChange($event.target.value)" class="form-control">
   <option value="allGenres">All Genres</option>
@@ -21,6 +22,7 @@
       <h4>Artist: {{album.artistName}}</h4>
       <h4>${{album.currentAmount}} recieved out of ${{album.goal}}</h4>
       <button (click)="clickDetails(album)">Details</button>
+      <button *ngIf="admin" (click)="clickEdit(album)">Edit</button>
     </div>
   </div>
   <div class="f-col-4 bg-light text-center box-light card">
