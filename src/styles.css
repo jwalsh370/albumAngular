@@ -1,9 +1,17 @@
-
 body{
   background-color: #EAEAEA;
   font-family:'raleway', sans-serif;
   font-weight: lighter;
   letter-spacing: .5px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+}
+
+.title {
+  margin-top: 5px;
 }
 
 .albumImg{

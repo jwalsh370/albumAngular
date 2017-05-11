@@ -10,8 +10,6 @@ export class AdminService {
   setAdmin(val, userString) {
     this.admin = val;
     this.adminString = userString;
-    console.log(this.admin);
-    console.log(this.adminString);
   }
 
   getAdmin() {

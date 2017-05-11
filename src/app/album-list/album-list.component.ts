@@ -23,10 +23,8 @@ export class AlbumListComponent implements OnInit {
   constructor(private router: Router, private albumService: AlbumService, private adminService: AdminService) { }
 
   ngOnInit() {
-    console.log(this.admin);
     this.albums = this.albumService.getAlbums();
     this.admin = this.adminService.getAdmin();
-    console.log(this.admin);
   }
 
   clickDetails(clickedAlbum) {
