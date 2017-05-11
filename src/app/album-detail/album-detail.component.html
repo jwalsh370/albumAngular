@@ -1,6 +1,8 @@
 <div class="f-row responsive box-dark border">
   <div class="f-col-4 bg-light box-light">
     <div>
+      <h2>{{(albumToDisplay | async)?.albumName}}</h2>
+      <h3 class="band">by {{(albumToDisplay | async)?.artistName}}</h3>
       <h4>Album Description: {{(albumToDisplay | async)?.description}}
       </h4>
       <h4>Genre: {{(albumToDisplay | async)?.genre}}</h4>

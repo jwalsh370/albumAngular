@@ -35,4 +35,9 @@ export class AlbumListComponent implements OnInit {
     this.filterByGenre = selectGenre;
   }
 
+  clickEdit(album) {
+    alert("Oops! Not done yet.");
+    this.router.navigate(['albums', album.$key]);
+  }
+
 }
